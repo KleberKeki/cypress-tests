@@ -71,4 +71,8 @@
   3. Clicar em "Entrar"
 - **Resultado esperado:** Exibir a mensagem "E-mail inválido."
 
+
+## 📝 Referências
+
+- Plano de teste documentados em: [plano-de-teste.md](./plano-de-teste.md)
 - Plano de automação no Cypress: [README.md do projeto principal](../README.md)
