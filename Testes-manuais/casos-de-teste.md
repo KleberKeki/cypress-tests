@@ -70,3 +70,5 @@
   2. Deixar ambos os campos em branco
   3. Clicar em "Entrar"
 - **Resultado esperado:** Exibir a mensagem "E-mail inválido."
+
+- Plano de automação no Cypress: [README.md do projeto principal](../README.md)
