@@ -26,14 +26,14 @@ jobs:
       - name: Instalar dependências
         run: npm install
 
-      - name: Instalar binário do Cypress
-        run: npx cypress install
-
-      - name: Dar permissão de execução no Cypress
+      - name: Dar permissão no Cypress (bin)
         run: chmod +x ./node_modules/.bin/cypress
 
+      - name: Instalar binário do Cypress
+        run: ./node_modules/.bin/cypress install
+
       - name: Rodar Cypress (modo headless)
-        run: npx cypress run
+        run: ./node_modules/.bin/cypress run
 
       - name: Salvar vídeos e screenshots (em caso de falha)
         if: failure()
