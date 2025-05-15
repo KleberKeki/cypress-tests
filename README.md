@@ -69,10 +69,3 @@ O projeto está configurado com **GitHub Actions** para rodar automaticamente os
 
 Kleber — em transição de carreira da música para a tecnologia, aprendendo e praticando QA com seriedade.
 Projeto feito com base no aprendizado adquirido no bootcamp [Qazando](https://qazando.com.br/).
-
-```
-
----
-
-Se quiser, posso te ajudar a criar os arquivos `casos-de-teste.md` e `plano-de-teste.md` com base no que você já escreveu, pra deixar tudo 100% redondo. Quer que eu gere esses arquivos também?
-```
