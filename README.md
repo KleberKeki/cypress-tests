@@ -29,8 +29,9 @@ Funcionalidade testada: **Login**
 | CT005  | E-mail vazio                  | "E-mail inválido."           |
 | CT006  | E-mail e senha vazios         | "E-mail inválido."           |
 
-- ✔️ [Arquivo de casos de teste](./test-cypress-web/docs/casos-de-teste.md)
-- 📝 [Plano de testes](./test-cypress-web/docs/plano-de-teste.md)
+- 📝 [Plano de testes](./Testes-manuais/plano-de-teste.md)
+
+- ✔️ [Arquivo com os casos de teste](./Testes-manuais/casos-de-teste.md)
 
 ---
 
