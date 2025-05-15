@@ -1,0 +1,24 @@
+# Ignora a pasta node_modules (essencial!)
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operacional (Windows/macOS/Linux)
+.DS_Store
+Thumbs.db
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Teste e coverage
+coverage/
+.vscode/
+.idea/
+
+# Ambiente
+.env
+.env.local

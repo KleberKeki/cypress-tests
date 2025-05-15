@@ -1,59 +1,77 @@
-# 🧪 Testes Automatizados com Cypress
+# 🧪 Testes Automatizados com Cypress — Projeto de Estudo
 
-Este repositório contém testes automatizados de interface utilizando o framework [Cypress](https://www.cypress.io/).
+Este projeto foi desenvolvido durante um bootcamp oferecido pela [Qazando](https://qazando.com.br/), com o objetivo de colocar em prática conhecimentos em testes automatizados utilizando o framework **Cypress**.
 
-## 📁 Estrutura do Projeto
+---
 
-cypress-tests/
-├── cypress/
-│ ├── e2e/
-│ └── support/
-├── cypress.config.js
-└── package.json
+## 🎯 Objetivo
 
-bash
-Copiar
-Editar
+O foco deste repositório é **praticar testes End-to-End (E2E)** em uma aplicação web simulada. A ideia é reforçar conhecimentos adquiridos na área de qualidade de software, melhorar a escrita de testes automatizados e organizar os arquivos como em um projeto real.
 
-## ⚙️ Tecnologias Utilizadas
+---
 
-- JavaScript
-- Cypress
-- Mocha (padrão interno do Cypress)
-- Node.js
+## 🧠 Sobre o Cypress
 
-## 🚀 Como executar os testes
+[Cypress](https://www.cypress.io/) é um framework moderno de testes end-to-end voltado para aplicações web. Ele roda diretamente no navegador, com visualização em tempo real, o que facilita a depuração. É muito utilizado para garantir a qualidade de aplicações em ambientes ágeis e CI/CD.
 
-1. Clone o repositório:
+---
+
+## 📋 Casos de Teste Automatizados
+
+Funcionalidade testada: **Login**
+
+| ID     | Cenário                       | Validação Esperada           |
+|--------|-------------------------------|------------------------------|
+| CT001  | Login com sucesso             | "Login realizado"            |
+| CT002  | E-mail inválido               | "E-mail inválido."           |
+| CT003  | Senha inválida                | "Senha inválida."            |
+| CT004  | Senha vazia                   | "Senha inválida."            |
+| CT005  | E-mail vazio                  | "E-mail inválido."           |
+| CT006  | E-mail e senha vazios         | "E-mail inválido."           |
+
+- ✔️ [Arquivo de casos de teste](./test-cypress-web/docs/casos-de-teste.md)
+- 📝 [Plano de testes](./test-cypress-web/docs/plano-de-teste.md)
+
+---
+
+## ▶️ Como executar os testes
+
+> Pré-requisitos: **Node.js** instalado
+
+1. Instale as dependências do projeto:
+
 ```bash
-git clone https://github.com/SEU_USUARIO/cypress-tests.git
-cd cypress-tests
-Instale as dependências:
-
-bash
-Copiar
-Editar
 npm install
-Execute os testes em modo interativo:
+````
 
-bash
-Copiar
-Editar
+2. Para executar com interface gráfica:
+
+```bash
 npx cypress open
-Ou em modo headless:
+```
 
-bash
-Copiar
-Editar
+3. Para executar no terminal (modo headless):
+
+```bash
 npx cypress run
-📄 Casos de Teste Automatizados
- Teste de login com sucesso
+```
 
- Teste de login inválido
+---
 
- Cadastro de novo usuário
+## 🤖 Integração Contínua (CI/CD)
 
- Validação de campos obrigatórios
+O projeto está configurado com **GitHub Actions** para rodar automaticamente os testes a cada `push` no repositório.
 
-📌 Observações
-Todos os testes foram baseados em critérios de aceitação definidos previamente. Foram incluídas as boas práticas de organização de pastas, comandos customizados e reuso de código
+---
+
+## 👨‍💻 Autor
+
+Kleber — em transição de carreira da música para a tecnologia, aprendendo e praticando QA com seriedade.
+Projeto feito com base no aprendizado adquirido no bootcamp [Qazando](https://qazando.com.br/).
+
+```
+
+---
+
+Se quiser, posso te ajudar a criar os arquivos `casos-de-teste.md` e `plano-de-teste.md` com base no que você já escreveu, pra deixar tudo 100% redondo. Quer que eu gere esses arquivos também?
+```
